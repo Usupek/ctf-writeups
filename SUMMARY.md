@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Heyya Welcome!](readme-1.md)
 
 ## CTFs
 
