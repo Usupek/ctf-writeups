@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [/home/usupek](README.md)
 
-## CTFs
+## \~/CTFs
 
 * [byuCTF 2025](ctfs/byuctf-2025/README.md)
   * [Minecraft Youtuber](ctfs/byuctf-2025/minecraft-youtuber.md)
 * [Quickstart](ctfs/quickstart.md)
 * [Publish your docs](ctfs/publish-your-docs.md)
 
-## Resources
+## \~/resources
 
 * [Editor](resources/editor.md)
 * [Markdown](resources/markdown.md)
