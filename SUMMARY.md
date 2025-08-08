@@ -4,8 +4,6 @@
 
 ## \~/CTFs
 
-* [byuCTF 2025](ctfs/byuctf-2025/README.md)
-  * [Minecraft Youtuber](ctfs/byuctf-2025/minecraft-youtuber.md)
 * [idekCTF 2025](ctfs/idekctf-2025/README.md)
   * [Constructor](ctfs/idekctf-2025/minecraft-youtuber.md)
   * [Myspace2](ctfs/idekctf-2025/myspace2.md)
@@ -13,6 +11,8 @@
   * [baby-goes-re](ctfs/justctf-2025/baby-goes-re.md)
 * [Quickstart](ctfs/quickstart.md)
 * [Publish your docs](ctfs/publish-your-docs.md)
+* [byuCTF 2025](ctfs/byuctf-2025/README.md)
+  * [Minecraft Youtuber](ctfs/byuctf-2025/minecraft-youtuber.md)
 
 ## \~/resources
 
