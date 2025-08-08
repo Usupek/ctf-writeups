@@ -165,7 +165,7 @@ Dump of assembler code for function main:
    0x00000000004015d6 <+82>:	mov    QWORD PTR [rbp-0x70],rax
 ```
 
-this might seem confusing, but when we combine with ghidra decompile info, we know that main <+82> is where 'friends' array started and it is stored in **rbp-0x70**. We can also see where the canary is stored, which is main <+21> and is stored in **rbp-0x8**.
+this might seem confusing, but when we combine with ghidra decompile info, we know that main <+82> is where 'friends' array started and it is stored in **rbp-0x70**. We can also see where the canary is located, which is main <+21> and is stored in **rbp-0x8**.
 
 Now we can calculate the offsets:
 
