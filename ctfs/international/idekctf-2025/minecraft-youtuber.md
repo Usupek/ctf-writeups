@@ -4,21 +4,21 @@ description: C++ Constructor reverse enginnering
 
 # Constructor
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 This is a reverse engineering challenge. Given a tar file and after we extract it we got an ELF file.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 when we run the ELF file it seems like it doesnt do much, it just prints out this eyes emoji. Then we proceed to dissasamble it using ghidra.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 from the info we gathered before we know the ELF is stripped. As we can see the \_start function doesn't do much, cause the program is coded in C++ constructor. this video explains constructor very well [https://youtu.be/FZK7BZhST9g?si=sL2HgASgf3QaZ4vT](https://youtu.be/FZK7BZhST9g?si=sL2HgASgf3QaZ4vT) .
 
 So, we proceed to search for the function that have the actual code. We found this function
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 it has the string "Correct!" in it and the decryption algorithm is in the do while loop.
 
@@ -32,7 +32,7 @@ what the do while loop does:
 
 then we extract the 42 encrypted bytes directly from the binary:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 then decrypt using python
 
