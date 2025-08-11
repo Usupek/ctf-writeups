@@ -5,7 +5,9 @@
 ## \~/CTFs
 
 * [National](ctfs/national/README.md)
-  * [Hacktoday](ctfs/national/hacktoday.md)
+  * [Hacktoday](ctfs/national/hacktoday/README.md)
+    * [easy-pcap](ctfs/national/hacktoday/easy-pcap.md)
+    * [Miniweb](ctfs/national/hacktoday/miniweb.md)
 * [International](ctfs/international/README.md)
   * [JustCTF 2025](ctfs/international/justctf-2025/README.md)
     * [baby-goes-re](ctfs/international/justctf-2025/baby-goes-re.md)
