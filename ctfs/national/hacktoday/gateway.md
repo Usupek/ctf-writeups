@@ -141,7 +141,7 @@ http {
     }
 ```
 
-from here we see that the '/flag' and '/password' file is read and assigned to 'u' and 'v' variable. Then the 'flag' is closed and both files are removed from. Keep in my mind that 'password' **has not been closed**, which will enable us to read the file descriptor to read the contents. As for the 'flag' we have to read it in memory.
+from here we see that the '/flag' and '/password' file is read and assigned to 'u' and 'v' variable. Then the 'flag' is closed and both files are removed. Keep in my mind that 'password' **has not been closed**, which will enable us to read the file descriptor to read the contents. As for the 'flag' we have to read it in memory.
 
 ```nginx
        location /static {
@@ -214,13 +214,13 @@ location /read {
         }
 ```
 
-finally we see a /read endpoint. Basically this endpoint will require a **X-Password** Header to access a filename which we defined by **X-Filename**. Then we can specify the range of bytes using **X-Start** and **X-Length.**
+finally we see a /read endpoint. Basically this endpoint will require a **X-Password** Header to access a filename which we defined by **X-Filename**. Then we can specify where the bytes start and the range of bytes using **X-Start** and **X-Length.**
 
-Now for the exploit part. First we use path traversal to find the password file. We can use /download endpoint but it got so much restrictions, which turns out there's a way to bypass all of the restrictions. How? by giving so much arguments until it can't handle it.
+Now for the exploit part. First we use path traversal to find the password file. We can use /download endpoint but it got so much restrictions, which turns out there's a way to bypass all of the restrictions. How? by giving so much arguments until it can't handle the arguments.
 
 {% embed url="https://openresty-reference.readthedocs.io/en/latest/Lua_Nginx_API/" %}
 
-here it is stated that the maximum request arguments is 100. So using we make 100 request arguments then add the filename
+here it is stated that the maximum request arguments is 100. So using thsi script we make 100 request arguments then add the filename
 
 ```python
 vals = ''
