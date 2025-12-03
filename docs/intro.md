@@ -6,7 +6,7 @@ coverY: 0
 
 # /home/usupek
 
-Welcome to Usupek's Gitbook! I write my ctf writeups here
+Welcome to Usupek's Gitbook! This is where I host my CTF writeups in Markdown. PDF versions are available in my GitHub repository.
 
 ### Jump right in
 

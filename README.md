@@ -1,4 +1,6 @@
+<div align='center'>
 # CTF Writeups
+</div>
 
 This repository contains my personal writeups for various Capture The Flag (CTF) competitions.  
 Most writeups are being migrated to **Markdown** so they render nicely on GitBook.
@@ -16,12 +18,12 @@ All PDF-only writeups will be stored in a `pdfs/` folder in the GitHub repositor
 
 Here is an overview of the CTFs currently covered in this repository:
 
-| Competition | Year | Category      | Path                                       | Notes                                              |
+| Competition | Year | Category      | Rank                                       | Notes                                              |
 |------------|------|---------------|--------------------------------------------|---------------------------------------------------|
-| BYUCTF     | 2025 | International | `ctfs/byuctf-2025/`                        | Includes `minecraft-youtuber`.                    |
-| idekCTF    | 2025 | International | `ctfs/international/idekctf-2025/`         | Includes `minecraft-youtuber`, `myspace2`.        |
-| justCTF    | 2025 | International | `ctfs/international/justctf-2025/`         | Includes `baby-goes-re`.                          |
-| HackToday  | 2025    | National      | `ctfs/national/hacktoday/`                 | Includes `easy-pcap`, `gateway`, `miniweb`, etc.  |
+| BYUCTF     | 2025 | International | `-`                        | Includes `minecraft-youtuber`.                    |
+| idekCTF    | 2025 | International | `-`         | Includes `minecraft-youtuber`, `myspace2`.        |
+| justCTF    | 2025 | International | `-`         | Includes `baby-goes-re`.                          |
+| HackToday  | 2025    | National      | `11`                 | Includes `easy-pcap`, `gateway`, `miniweb`, etc.  |
 
 > **Note:** This table will grow as more competitions and writeups are added.
 
