@@ -1,5 +1,7 @@
 <div align='center'>
+
 # CTF Writeups
+
 </div>
 
 This repository contains my personal writeups for various Capture The Flag (CTF) competitions.  
