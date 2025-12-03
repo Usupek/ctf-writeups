@@ -1,0 +1,6 @@
+root: ./docs/
+
+structure:
+  readme: intro.md
+  summary: summary.md
+
