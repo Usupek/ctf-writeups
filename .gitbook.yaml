@@ -1,6 +1,6 @@
-root: ./docs/
+root: ./
 
 structure:
-  readme: intro.md
-  summary: summary.md
+  readme: docs/intro.md
+  summary: docs/summary.md
 
