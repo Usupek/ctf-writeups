@@ -4,17 +4,17 @@ description: SSTI + SSRF challenge
 
 # Miniweb
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 given a link with the source code
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 nothing interesting in the actual web. Then I proceed to investigate the source code
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 there are two folders with these files inside. These are the important files
 
@@ -149,7 +149,7 @@ so to confirm this I put&#x20;
 
 to the endpoint
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 and it worked. So I crafted a payload that bypasses all the waf
 
@@ -159,7 +159,7 @@ and it worked. So I crafted a payload that bypasses all the waf
 
 and it worked!
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 then I just need to modify the payload to read flag.txt file from internal-server
 
@@ -171,6 +171,6 @@ so the final payload:
 
 and got the flag
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: hacktoday{karena\_roti\_lebih\_enak\_dari\_kunci\_gang}

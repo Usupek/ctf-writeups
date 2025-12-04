@@ -4,15 +4,15 @@ description: nginx misconfig
 
 # Gateway
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 given a web link with the source code. First we see the web
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 nothing much to see here. Then I proceed to analyze the source code
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ignore the py files, those are my scripts. Anyway as you can see, we are given a Dockerfile and an nginx conf file.
 
@@ -230,11 +230,11 @@ for i in range (1, 101):
 print(vals)
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 it worked! now we just have to read the fd where password is located. We know the password is located in **/proc/self/fd/6** from container debugging.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 and as we can see the password text are all asterisks, which means it contain /download filename restrictions. we can bypass this by only retrieve 1 byte at a time. My script:
 
@@ -290,17 +290,17 @@ print(f"Password yang berhasil diekstrak: {password_lengkap}")
 
 when we run the script, we got the password:
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **Password: passthepasswordisdontlookbehindpasswordsomethingiswatching**
 
 Now after we got the password we can access /read endpoint. first we see **/proc/self/maps** to see the memory layout
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 we see **/dev/zero** is located in **0x7faf57b10000**, now we can use offset with **/proc/self/mem** to dump memory
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 and we got the flag
 
