@@ -14,7 +14,7 @@ nothing interesting in the actual web. Then I proceed to investigate the source 
 
 <figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 there are two folders with these files inside. These are the important files
 
@@ -141,7 +141,7 @@ f"{name} has subscribed successfully"
 
 which then will be sanitized by waf.py.
 
-so to confirm this I put&#x20;
+so to confirm this I put
 
 ```python
 /sub?name={{7*7}}

@@ -1,7 +1,6 @@
 # Table of contents
 
-* [intro](intro.md)
-* [/home/usupek](../home-usupek.md)
+* [/home/usupek](intro.md)
 
 ## \~/CTFs
 
