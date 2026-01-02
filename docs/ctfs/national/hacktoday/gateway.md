@@ -4,15 +4,15 @@ description: nginx misconfig
 
 # Gateway
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 given a web link with the source code. First we see the web
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 nothing much to see here. Then I proceed to analyze the source code
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ignore the py files, those are my scripts. Anyway as you can see, we are given a Dockerfile and an nginx conf file.
 
