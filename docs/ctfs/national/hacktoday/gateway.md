@@ -230,11 +230,11 @@ for i in range (1, 101):
 print(vals)
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 it worked! now we just have to read the fd where password is located. We know the password is located in **/proc/self/fd/6** from container debugging.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 and as we can see the password text are all asterisks, which means it contain /download filename restrictions. we can bypass this by only retrieve 1 byte at a time. My script:
 
@@ -290,7 +290,7 @@ print(f"Password yang berhasil diekstrak: {password_lengkap}")
 
 when we run the script, we got the password:
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Password: passthepasswordisdontlookbehindpasswordsomethingiswatching**
 
