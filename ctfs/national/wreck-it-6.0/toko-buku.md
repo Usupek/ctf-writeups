@@ -8,7 +8,7 @@ description: A pwn heap challenge
 
 Given an ELF file, when we run it:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As the name suggests, it is a bookstore program. We can see here the binary has a full protection, which implies that maybe this is a heap challenge. We proceed to decompile it using ida and got these functions:
 
@@ -265,6 +265,6 @@ if __name__ == "__main__":
 
 When we run it, we get the flag:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: WRECKIT60{t0k0\_buku\_1t01d\_m4nt4p\_s3k4l111!!!!!\_h4h4h4h4h4}
