@@ -14,7 +14,7 @@ However, **some writeups are still only available as PDF files**. These:
 
 All PDF-only writeups will be stored in a `pdfs/` folder in the GitHub repository 
 
----
+<>---
 
 ## Competition List
 
@@ -29,7 +29,7 @@ Here is an overview of the CTFs currently covered in this repository:
 
 > **Note:** This table will grow as more competitions and writeups are added.
 
----
+---<>
 
 ## Contributing / Feedback
 
