@@ -11,6 +11,7 @@
     * [Gateway](ctfs/national/hacktoday/gateway.md)
   * [Wreck It 6.0](../ctfs/national/wreck-it-6.0/README.md)
     * [Treasure](../ctfs/national/wreck-it-6.0/treasure.md)
+    * [Toko Buku](../ctfs/national/wreck-it-6.0/toko-buku.md)
 * [International](ctfs/international/README.md)
   * [JustCTF 2025](ctfs/international/justctf-2025/README.md)
     * [baby-goes-re](ctfs/international/justctf-2025/baby-goes-re.md)

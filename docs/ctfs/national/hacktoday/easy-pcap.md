@@ -8,11 +8,11 @@ description: forensics challenge
 
 given a pcap file
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 then I export HTTP object, then I got these files
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 then I cat all receive files
 
@@ -46,7 +46,7 @@ I got the second part of the flag. Then I proceed to investigate this picture fu
 
 <figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-there's a file inside this png file. Then I extract it using binwalk then got these two files.&#x20;
+there's a file inside this png file. Then I extract it using binwalk then got these two files.
 
 <figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 

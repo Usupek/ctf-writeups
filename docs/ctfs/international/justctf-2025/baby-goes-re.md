@@ -8,7 +8,7 @@ description: golang reverse engineering challenge
 
 given a golang binary file. Then we proceed to disassamble it using binja.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 this is the main function. As we can see here there's a call to main. Checkflag function, so we take a look
 
