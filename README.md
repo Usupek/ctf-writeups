@@ -14,22 +14,7 @@ However, **some writeups are still only available as PDF files**. These:
 
 All PDF-only writeups will be stored in a `pdfs/` folder in the GitHub repository 
 
-<>---
-
-## Competition List
-
-Here is an overview of the CTFs currently covered in this repository:
-
-| Competition | Year | Category      | Rank                                       | Notes                                              |
-|------------|------|---------------|--------------------------------------------|---------------------------------------------------|
-| BYUCTF     | 2025 | International | `-`                        | Includes `minecraft-youtuber`.                    |
-| idekCTF    | 2025 | International | `-`         | Includes `minecraft-youtuber`, `myspace2`.        |
-| justCTF    | 2025 | International | `-`         | Includes `baby-goes-re`.                          |
-| HackToday  | 2025    | National      | `11`                 | Includes `easy-pcap`, `gateway`, `miniweb`, etc.  |
-
-> **Note:** This table will grow as more competitions and writeups are added.
-
----<>
+---
 
 ## Contributing / Feedback
 
