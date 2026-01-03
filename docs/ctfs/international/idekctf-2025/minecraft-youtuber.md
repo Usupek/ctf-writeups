@@ -8,7 +8,7 @@ description: C++ Constructor reverse enginnering
 
 This is a reverse engineering challenge. Given a tar file and after we extract it we got an ELF file.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 when we run the ELF file it seems like it doesnt do much, it just prints out this eyes emoji. Then we proceed to dissasamble it using ghidra.
 

@@ -8,7 +8,7 @@ Given an ELF file, if we run it:
 
 turns out it's a flag shop program. If we input negative number:
 
-<figure><img src="../../../.gitbook/assets/unknown (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 turns out we can input negative numbers, but even though we got enough points, we still don't get the flag. So we proceed to decompile the file.
 

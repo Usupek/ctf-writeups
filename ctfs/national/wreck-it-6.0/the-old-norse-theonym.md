@@ -1,6 +1,6 @@
 # The-Old-Norse-Theonym
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Given an ELF file and flag.txt.enc. immediately decompile the ELF using ida and got these functions:
 
@@ -410,6 +410,6 @@ print(m.group().decode() if m else "flag regex not found; cek file .dec")
 
 When we run it, we get the flag:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: WRECKIT60{1278644a3873e8874ea91a544a3cf07dc3f8e39210e847f0f222e16cbc665d2b}

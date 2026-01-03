@@ -1,10 +1,10 @@
 # Simple Ret2Win
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Given an ELF file, if we run it:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 then we proceed to decompile the file and got the vuln is a **BOF(Buffer Overflow)** in **vulnerable\_function**
 
@@ -47,6 +47,6 @@ p.interactive()
 
 if we run it:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: RTRTNI25{Ju5t\_4\_Sm4ll\_0v3rfl0w\_t0\_G3t\_th3\_W1n!}

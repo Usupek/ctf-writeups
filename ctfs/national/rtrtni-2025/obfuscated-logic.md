@@ -1,6 +1,6 @@
 # Obfuscated Logic
 
-<figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
 
 Given an ELF file, we can see from the challenge description that we have to do **dynamic analysis**. But before that, we do **static analysis** first to see the program's algorithm to encrypt/decrypt the flag.
 
@@ -72,17 +72,17 @@ encoded_flag[i] = ((input[i] + i) & 0xff) ^ key[i % 4]
 
 then we proceed to analyze using gdb:
 
-<figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 from here we found some interesting functions, check\_password and validate\_char. But we can't set breakpoint cause PIE is on. so we use **start** command to put a temporary breakpoint on main.
 
-<figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 after we hit the breakpoint, now we can put breakpoints on check\_password and validate\_char
 
-<figure><img src="../../../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 then we continue until we hit **validate\_char**
 

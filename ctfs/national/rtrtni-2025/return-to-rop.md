@@ -4,7 +4,7 @@
 
 Given an ELF file and also the OS to run the program, that means we don't have to go through the steps to leak libc. if we run the file:
 
-<figure><img src="../../../.gitbook/assets/unknown (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 we see the program prints **two addresses**. Then we proceed to decompile the program:
 
@@ -134,6 +134,6 @@ p.interactive()
 
 If we run it, we get the flag:
 
-<figure><img src="../../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: RTRTNI25{Chaining\_Gadgets\_For\_Ultimate\_Power}
