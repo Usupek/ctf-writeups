@@ -8,7 +8,7 @@ Given an ELF file, if we run it:
 
 turns out it's a flag shop program. If we input negative number:
 
-<figure><img src="../../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 turns out we can input negative numbers, but even though we got enough points, we still don't get the flag. So we proceed to decompile the file.
 
@@ -44,6 +44,6 @@ if **strtol** results in negative number, negative v23 -> points -= (neg) -> poi
 
 so using two vulns we got, we can exploit the program:
 
-<figure><img src="../../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/unknown (16).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag: RTRTNI25{c9f769e366ec795cecb3830212ea8e3d}

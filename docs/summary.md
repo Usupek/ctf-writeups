@@ -19,6 +19,8 @@
     * [Simple Ret2Win](../ctfs/national/rtrtni-2025/simple-ret2win.md)
     * [Ranger Shop](../ctfs/national/rtrtni-2025/ranger-shop.md)
     * [Return to ROP](../ctfs/national/rtrtni-2025/return-to-rop.md)
+    * [Obfuscated Logic](../ctfs/national/rtrtni-2025/obfuscated-logic.md)
+    * [Ranger Login](../ctfs/national/rtrtni-2025/ranger-login.md)
 * [International](ctfs/international/README.md)
   * [JustCTF 2025](ctfs/international/justctf-2025/README.md)
     * [baby-goes-re](ctfs/international/justctf-2025/baby-goes-re.md)
