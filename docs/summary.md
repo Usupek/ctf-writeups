@@ -25,6 +25,8 @@
     * [Epoch Seal](../ctfs/national/schematics-2025/epoch-seal.md)
     * [HarderBetterFasterStronger](../ctfs/national/schematics-2025/harderbetterfasterstronger.md)
     * [DeepSpace](../ctfs/national/schematics-2025/deepspace.md)
+  * [GEMASTIK 2025](../ctfs/national/gemastik-2025/README.md)
+    * [Scripts](../ctfs/national/gemastik-2025/scripts.md)
 * [International](ctfs/international/README.md)
   * [JustCTF 2025](ctfs/international/justctf-2025/README.md)
     * [baby-goes-re](ctfs/international/justctf-2025/baby-goes-re.md)
