@@ -1,8 +1,10 @@
 ---
-description: nginx misconfig
+description: Web Exploitation (nginx misconfig)
 ---
 
 # Gateway
+
+
 
 <figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 

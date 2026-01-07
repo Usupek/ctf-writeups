@@ -1,3 +1,7 @@
+---
+description: Binary Exploitation/Pwn
+---
+
 # Ranger Shop
 
 <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>

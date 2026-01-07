@@ -1,5 +1,5 @@
 ---
-description: SSTI + SSRF challenge
+description: Web Exploitation (SSTI + SSRF challenge)
 ---
 
 # Miniweb

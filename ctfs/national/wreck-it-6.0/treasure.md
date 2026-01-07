@@ -1,5 +1,5 @@
 ---
-description: A seccomp pwn challenge
+description: Binary Exploitation/Pwn (seccomp)
 ---
 
 # Treasure
